@@ -43,7 +43,7 @@ https://rohitcoder47.github.io/My-portfolio/
 
 **Rohit Kumar**
 - GitHub: [@RohitCoder47](https://github.com/RohitCoder47)
-- LinkedIn: [Rohit](https://linkedin.com/in/rohit)
+- LinkedIn: [Rohit](https://linkedin.com/in/rohit-kumar-2a1166371)
 - Email: kumawatrohitpachar@gmail.com
 
 ## 📄 License
