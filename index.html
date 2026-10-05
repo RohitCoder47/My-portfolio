@@ -1,101 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohit-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rohit Kumar | Aspiring Software Engineer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
-    <nav>
-    <h3 id="name"><b>Rohit Kumar</b></h3>
-    <ul id="link">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#Skill">Skill</a></li>
-    <li><a href="#project">Project</a></li>
-    <li><a href="#contact">Contact</a></li>
-    </ul>
-    </nav>
-    <header>
-    <h3 class="rohit">Hey, I'm <b class="name">Rohit</b> </h3>
-    <P class="IT">2nd year IT student | DSA Enthusiast | Full Stack Developer</P>
-    <p class="project">Building Project, Solving problems & aiming for top companies</p>
-    <button>Explore My Work</button>
-    </header>
-    <section id="about">
-    <h3 id="me">About Me</h3>
-    <p>I'm a IT student at Guru Ghasidas Vishwavidyalaya, Bilaspur.<br> Passionate about competitive programming, data structures, and building full-stack applications</p>
-    <p>My focus is on mastering DSA and web development to secure placements at top product-based companies.</p>
-    <ul>
-    <li class="link"><a href="https://linkedin.com/in/rohit">LinkedIn</a></li>
-    <li class="git"><a href="https://github.com/RohitCoder47">GitHub</a></li>
-    </ul>
-    </section>
-    <section id="skill">
-    <h3 id="skills">Skills</h3>
-    <article>
-    <h4 class="language">Languages</h4>
-    <ul>
-        <li>C++</li>
-        <li>Javascript</li>
-        <li>HTML/CSS</li>
-    </ul>
-    </article>
-    <article>
-    <h4 class="tools">Tools & Platforms</h4>
-    <ul>
-        <li>VS code</li>
-        <li>Git/Github</li>
-        <li>chrome DevTools</li>
-    </ul>
-    </article>
-    <article>
-    <h4 class="learn">Learning</h4>
-    <ul>
-        <li>Data Structure</li>
-        <li>Algorithms</li>
-        <li>Web Development</li>
-    </ul>
-    </article>
-    </section>
+<div class="bgfix"></div>
+<nav><b>rohit<span>.dev</span></b><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
 
-    <!-- project section -->
-    <section id="grid">
-    <h3 id="feature">Featured Projects</h3>
+<header class="hero" id="top">
+  <div class="layer grid" data-s="0.15"></div>
+  <div class="layer" data-s="0.3"><div class="orb o1"></div><div class="orb o2"></div></div>
+  <div class="layer dots" data-s="0.5" id="dots"></div>
+  <div class="stage par" data-s="0.1" aria-hidden="true"><div class="big"><span style="--i:0">D</span><span style="--i:1">E</span><span style="--i:2">V</span><span style="--i:3">E</span><span style="--i:4">L</span><span style="--i:5">O</span><span style="--i:6">P</span><span style="--i:7">E</span><span style="--i:8">R</span></div></div>
+  <div class="stage pw par" data-s="0.22"><img src="photo.jpeg" alt="Rohit Kumar portrait"></div>
+  <div class="stage par" data-s="0.35" aria-hidden="true" style="z-index:4"><div class="big out"><span style="--i:0">D</span><span style="--i:1">E</span><span style="--i:2">V</span><span style="--i:3">E</span><span style="--i:4">L</span><span style="--i:5">O</span><span style="--i:6">P</span><span style="--i:7">E</span><span style="--i:8">R</span></div></div>
+  <div class="hl">
+    <span class="tag">● Open to internships</span>
+    <h1>I'm <span class="grad">Rohit Kumar</span></h1>
+    <div class="sub">B.Tech IT Student | Aspiring Software Engineer</div>
+    <p>I build <b class="grad"><span id="typed"></span></b><i class="cur"></i></p>
+    <div class="btns"><a class="btn p" href="#projects">View Projects →</a><a class="btn g" href="#contact">Contact</a></div>
+  </div>
+  <div class="hr">that solves<br>real problems<small>C++ · JavaScript · Full-Stack</small></div>
+</header>
 
-    <!-- Project 1: Portfolio -->
-    <div>
-    <h4 id="web">Portfolio Website</h4>
-    <p>Clean and responsive portfolio website showcasing my skills and projects.</p>
-    <p id="html">HTML</p>
-    <p id="html">CSS</p>
-    <a href="https://github.com/RohitCoder47/my-portfolio">View Code</a>
-    </div>
+<section id="about" class="rv">
+  <h2>About Me</h2>
+  <p class="lead">I'm Rohit Kumar, a B.Tech Information Technology student passionate about software development and problem-solving. I have experience with C++, DSA, HTML, CSS, and JavaScript, and I'm currently exploring full-stack development. I enjoy building practical projects, improving my coding skills, and preparing for a career as a Software Engineer.</p>
+  <div class="stats">
+    <div class="stat"><b>3+</b><small>Projects built</small></div>
+    <div class="stat"><b>C++ · JS</b><small>Core languages</small></div>
+    <div class="stat"><b>Full-Stack</b><small>Currently exploring</small></div>
+    <div class="stat"><b>Sikar, RJ</b><small>India</small></div>
+  </div>
+</section>
 
-    <!-- Project 2: Calculator -->
-    <div>
-    <h4 id="web">Professional Calculator</h4>
-    <p>A fully functional calculator with basic arithmetic operations and clean UI.</p>
-    <p id="html">HTML</p>
-    <p id="html">CSS</p>
-    <p id="html">Javascript</p>
-    <a href="https://github.com/RohitCoder47/professional-calculator">View Code</a>
-    </div>
+<section id="projects">
+  <h2 class="rv">Projects</h2>
+  <div class="cards">
+    <article class="card rv"><span class="n">01</span><h3>CampusCare – Smart Campus Complaint Management System</h3><p>A web-based complaint management system that lets students submit complaints and enables administrators to prioritize, assign, track, and resolve them efficiently. Uses role-based dashboards and unique complaint IDs for better management.</p><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">C++</span><span class="chip">Database</span></div></article>
+    <article class="card rv"><span class="n">02</span><h3>MPLADS Risk Intelligence – AI-Powered Project Monitoring</h3><p>A web application that identifies anomalies, cost irregularities, delays, and inconsistencies in development projects, with risk analysis, alerts, project monitoring, GIS visualization, and role-based dashboards.</p><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Tailwind CSS</span><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">MongoDB</span><span class="chip">AI/ML</span><span class="chip">GIS</span></div><a class="demo" href="https://rohitcoder47.github.io/SIH-2026-DEMO/" target="_blank" rel="noopener">Live Demo →</a></article>
+    <article class="card rv"><span class="n">03</span><h3>Professional Calculator</h3><p>A clean, responsive calculator for everyday arithmetic with a professional interface. Focuses on JavaScript logic, event handling, and DOM manipulation.</p><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div></article>
+  </div>
+</section>
 
-    </section>
+<section id="skills">
+  <h2 class="rv">Skills</h2>
+  <div class="skills">
+    <div class="sk rv"><h3>Programming Languages</h3><div class="bar"><small><span>C++</span><span>Strong</span></small><i style="--w:85%"></i></div><div class="bar"><small><span>JavaScript</span><span>Strong</span></small><i style="--w:80%"></i></div><div class="bar"><small><span>C</span><span>Good</span></small><i style="--w:75%"></i></div></div>
+    <div class="sk rv"><h3>Web Development</h3><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">Express.js</span></div>
+    <div class="sk rv"><h3>Database &amp; Tools</h3><span class="chip">MongoDB</span><span class="chip">Git &amp; GitHub</span><span class="chip">VS Code</span></div>
+    <div class="sk rv"><h3>Core Skills</h3><span class="chip">Data Structures &amp; Algorithms</span><span class="chip">Problem Solving</span><span class="chip">OOP</span><span class="chip">Responsive Web Design</span></div>
+  </div>
+</section>
 
-    <section id="touch">
-    <h3 id="get">Get In Touch</h3>
-    <p>Interested in collaborating or have any questions? Feel free to reach out!</p>
-    <ul id="elg">
-        <li><a href="mailto:kumawatrohitpachar@gmail.com">Email</a></li>
-        <li><a href="https://linkedin.com/in/rohit">LinkedIn</a></li>
-        <li><a href="https://github.com/RohitCoder47">GitHub</a></li>
-    </ul>
-    <hr>
-    <footer>© 2026 Rohit Kumar. Built with HTML, CSS.</footer>
-    </section>
+<section id="contact" class="contact rv">
+  <h2>Let's Connect</h2>
+  <p class="lead">I'm always open to new opportunities, collaborations, and learning. Reach out and let's build something great.</p>
+  <div class="links">
+    <a class="btn p" href="mailto:rohitsftengr@gmail.com">Email Me</a>
+    <a class="btn g" href="https://github.com/RohitCoder47" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn g" href="https://www.linkedin.com/in/rohit-kumar-2a1166371" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="lead" style="margin-top:22px;font-size:.95rem">rohitsftengr@gmail.com · Sikar, Rajasthan, India</p>
+</section>
+<footer>© 2026 Rohit Kumar. Built with passion and code.</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
