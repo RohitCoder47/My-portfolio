@@ -84,14 +84,10 @@ HTML CSS JavaScript
 
 🏆 Highlights
 
-B.Tech Information Technology student
+B.Tech Information Technology student.
+C++ and DSA focused problem solving.
+Building projects with JavaScript and web technologies.
+Exploring full-stack development.
+Participated in Smart India Hackathon (SIH) 2026.
 
-C++ and DSA focused problem solving
 
-Building projects with JavaScript and web technologies
-
-Exploring full-stack development
-
-Participated in Smart India Hackathon (SIH) 2026
-
-Interested in cloud engineering, DevOps, software development, and internship opportunities
