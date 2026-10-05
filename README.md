@@ -1,51 +1,35 @@
-# 💼 Rohit Kumar — Portfolio Website
+Rohit Kumar | Portfolio
 
-A clean and responsive personal portfolio website showcasing my skills, projects, and journey as a developer.
+A modern, dark and neon themed personal portfolio with a layered, animated hero section, built with plain HTML, CSS, and JavaScript.
 
-## ✨ Features
+Live site: https://rohitcoder47.github.io/My-portfolio/
 
-- Responsive navigation bar with smooth section links
-- About Me section with education and interests
-- Skills section (Languages, Tools & Platforms, Currently Learning)
-- Featured Projects section with links to GitHub repos
-- Contact section with Email, LinkedIn, and GitHub links
-- Clean dark-themed UI
+Features:
 
-## 🛠️ Built With
+Big animated typography hero with a layered portrait and parallax effect
+Typing animation for rotating roles
+Scroll reveal animations for every section
+Interactive project cards with a glow that follows the cursor
+Animated skill bars
+Fully responsive (mobile, tablet, desktop)
+No frameworks or build tools needed
+Sections:
 
-- HTML5
-- CSS3
+Home: introduction with animated hero
+About: short bio and quick stats
+Projects: CampusCare, MPLADS Risk Intelligence, Professional Calculator
+Skills: programming languages, web development, tools, and core skills
+Contact: email, GitHub, and LinkedInen source and free to use.
 
-## 📂 Sections
+Tech Stack:
 
-- **Home** — Introduction and quick intro
-- **About** — Background and current focus
-- **Skills** — Languages, tools, and technologies I'm learning
-- **Projects** — Featured work including Portfolio and Calculator
-- **Contact** — Ways to reach out and connect
+HTML5
+CSS3 (custom properties, grid, flexbox, animations)
+JavaScript (vanilla)
 
-## 📥 How to Run Locally
+Contact:
 
-1. Clone this repository
-   ```
-   git clone https://github.com/RohitCoder47/my-portfolio.git
-   ```
-2. Open the project folder
-   ```
-   cd my-portfolio
-   ```
-3. Open `index.html` in your browser — that's it!
-
-## 🚀 Live Demo
-https://rohitcoder47.github.io/My-portfolio/
-
-## 👤 Author
-
-**Rohit Kumar**
-- GitHub: [@RohitCoder47](https://github.com/RohitCoder47)
-- LinkedIn: [Rohit](https://linkedin.com/in/rohit-kumar-2a1166371)
-- Email: kumawatrohitpachar@gmail.com
-
-## 📄 License
-
-This project is open source and free to use.
+Email: rohitsftengr@gmail.com
+GitHub: RohitCoder47
+LinkedIn: Rohit Kumar
+Location: Sikar, Rajasthan, India
