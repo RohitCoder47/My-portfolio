@@ -1,6 +1,6 @@
-🚀 Rohit Kumar — Developer Portfolio
+🚀 Rohit Kumar — Portfolio
 
-A modern, responsive personal portfolio website showcasing my skills, projects, background, and contact information as a B.Tech Information Technology student and aspiring Cloud Engineer.
+A modern, responsive personal portfolio website showcasing my skills, projects, background, and contact information as a B.Tech Information Technology student.
 
 The portfolio follows a dark, modern, and developer-focused UI with blue/purple accents, glass-style cards, subtle gradients, and responsive layouts.
 
@@ -75,6 +75,19 @@ The project focuses on JavaScript fundamentals, event handling, DOM manipulation
 
 Technologies:
 HTML CSS JavaScript
+
+**Live Demo:**  
+https://rohitcoder47.github.io/professional-calculator/
+
+04.Tic-Tac-Toe Game
+
+A responsive and interactive Tic-Tac-Toe game built with a clean user interface. The project focuses on JavaScript game logic, player turns, win detection, and DOM manipulation.
+
+**Technologies:**
+HTML CSS JavaScript
+
+**Live Demo:**  
+https://rohitcoder47.github.io/tic-tac-toe/
 
 📬 Contact
 📧 Email: rohitsftengr@gmail.com
